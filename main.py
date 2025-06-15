@@ -7,7 +7,7 @@ jobs = scrape_jobs(
     location="Lisbon, Portugal",
     results_wanted=20,
     hours_old=24,
-    country_indeed="PT"
+    country_indeed="portugal"
 )
 
 print(f"Found {len(jobs)} jobs")
